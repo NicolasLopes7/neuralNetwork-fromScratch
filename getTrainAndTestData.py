@@ -23,3 +23,5 @@ def trainTestSplit(dataset, percentage):
     trainX, trainY = mount(trainData)
     testX, testY = mount(testData)
     return trainX, trainY, testX, testY
+
+trainX, trainY, testX, testY = trainTestSplit(dataset, 80)
